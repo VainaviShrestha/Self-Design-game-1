@@ -63,8 +63,8 @@ if(keyWentDown("space")){
 
 //player goes back to original standing image once we stop pressing the space bar
 else if(keyDown("space")){
-  //player.addImage( shooter_shooting )
-  player.addImage()
+  player.addImage( shooter_shooting )
+ // player.addImage()
  //player.addImage(shooterImg)
  //player.addImage(shooter_1.png)
 
